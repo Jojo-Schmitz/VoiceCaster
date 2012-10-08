@@ -108,9 +108,9 @@ function run()
     score.name  = "VoiceCaster";
     score.title = "VoiceCaster";
     score.appendPart();
-    score.appendPart();
-    score.appendPart();
-    score.appendPart();
+    if (chordArray1.length > 0) score.appendPart();
+    if (chordArray2.length > 0) score.appendPart();
+    if (chordArray3.length > 0) score.appendPart();
     score.keysig = curScore.keysig;
     score.appendMeasures(curScore.measures*(endStaff-startStaff);
 
