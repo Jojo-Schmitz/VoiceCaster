@@ -111,7 +111,7 @@ function run()
             }    
       }
             
-// Create a new score with 4 staves as many empty measures as max. needed
+// Create a new score with 4 staves and 500 empty measures
       var score   = new Score();
       score.name  = "VoiceCaster";
       score.title = "VoiceCaster";
@@ -120,7 +120,7 @@ function run()
       score.appendPart();
       score.appendPart();
       score.keysig = curScore.keysig;
-      score.appendMeasures(curScore.measures*(endStaff-startStaff);
+      score.appendMeasures(500);
 
       var newCursor = new Cursor(score);
 
