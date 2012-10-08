@@ -112,7 +112,7 @@ function run()
     if (chordArray2.length > 0) score.appendPart();
     if (chordArray3.length > 0) score.appendPart();
     score.keysig = curScore.keysig;
-    score.appendMeasures(curScore.measures*(endStaff-startStaff);
+    score.appendMeasures(curScore.measures*(endStaff-startStaff));
 
     var newCursor = new Cursor(score);
 
