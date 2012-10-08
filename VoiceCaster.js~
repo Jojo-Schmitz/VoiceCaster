@@ -23,15 +23,15 @@ function addChord(cursor, duration)
 
 function addNote(chord, pitch)
 {
-    var note   = new Note();
-    note.pitch = pitch;
+    var note      = new Note();
+    note.pitch    = pitch;
     chord.addNote(note);
 }
 
 
 function addRest(cursor, duration)
 {
-    var rest     = new Rest();
+    var rest = new Rest();
     rest.tickLen = duration;
     cursor.add(rest);
     cursor.next();
