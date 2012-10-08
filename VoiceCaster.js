@@ -130,7 +130,6 @@ function run()
       newCursor.staff = 0;
       newCursor.voice = 0;
       newCursor.rewind();
-      chordArray0.pop();
       
       for (var i = 0; i<chordArray0.length; i++)
       {
@@ -155,7 +154,6 @@ function run()
       newCursor.staff = 1;
 //      newCursor.voice = 1;
       newCursor.rewind();
-      chordArray1.pop();
       
       for (var i = 0; i<chordArray1.length; i++)
       {
@@ -180,7 +178,6 @@ function run()
       newCursor.staff = 2;
 //      newCursor.voice = 2;
       newCursor.rewind();
-      chordArray2.pop();
       
       for (var i = 0; i<chordArray2.length; i++)
       {
@@ -205,7 +202,6 @@ function run()
       newCursor.staff = 3;
 //      newCursor.voice = 3;
       newCursor.rewind();
-      chordArray3.pop();
       
       for (var i = 0; i<chordArray3.length; i++)
       {
